@@ -46,13 +46,13 @@ State Space Equation: State Differential Equation과 Output Equation을 합친 �
 따라서 1차 행렬 미분방정식이 된다.  
 이 1차 행렬 미분방정식을 가지고 라플라스 변환을 수행하고 $\Phi(s)$로 치환하면 행렬 기준으로 값을 얻을 수 있다.  
   
-### Ex 3.1
-![Ex 3.1](photo/7.png)  
+### Ex 3
+![Ex 3](photo/7.png)  
 2차 미분방정식 2개가 만들어진다.  
 -> 4차 미분방정식  
 4차 미분방정식은 풀기가 어렵기 때문에 state를 4개 정의해서 4개의 1차 미분방정식을 만든다.  
 1차 미분방정식 4개 -> 연립방정식 -> 행렬 미분방정식  
   
-![Ex 3.1_](photo/8.png)  
+![Ex 3.1](photo/8.png)  
 ss: State Space Equation에 행렬 4개를 넣어주면 시스템으로 만들어주는 함수  
 initial(sys, x0, [0, 5]): sys 시스템에서 초기값 x0를 넣고 0~5초 동안 실행
