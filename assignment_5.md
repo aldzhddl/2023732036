@@ -11,7 +11,7 @@ system을 수식화할 때 system 안에 의미가 있는 것들 또는 의미�
 
 ### Ex 1: spring-mass-damper system
 ![spring-mass-damper system](photo/2.png)  
-$$M(d^2y(t)/dt^2) + b(dy(t)/dt) + ky(t) = r(t)$$  
+$$M \frac{d^2 y(t)}{dt^2} + b \frac{dy(t)}{dt} + k y(t) = r(t)$$  
 위 식은 2차 미분방정식이므로 2개의 state를 설정해 1차 미분방정식 2개를 연립한다.  
 
 ### Ex 2: R-L-C circuit system
@@ -19,8 +19,20 @@ $$M(d^2y(t)/dt^2) + b(dy(t)/dt) + ky(t) = r(t)$$
 state를 설정 시 state끼리 무관해야 하며 항등식이 되면 안된다.  
 독립적이어야 한다.  
 
+---
+
 ## State Space Equation
 ### 1st order state differential equation
 ![1st order state differential equation](photo/4.png)  
 초기값 또는 Input이 $\Phi(t)$라는 함수에 의해 변환되어 $x(t)$로 전달된다.  
 
+### State vector and state space equation
+![State vector and state space equation](photo/5.png)  
+
+### State transition matrix
+![State transition matrix](photo/6.png)  
+
+### Ex 3.1
+![Ex 3.1](photo/7.png)  
+
+![Ex 3.1_](photo/8.png)  
